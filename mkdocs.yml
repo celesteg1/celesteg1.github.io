@@ -1,0 +1,25 @@
+site_name: CelesteG1's Portfolio 
+site_url: https://celesteg1.github.io/
+theme:
+  name: material
+  logo: assets/images/minimal-icon.png
+  palette:
+    - scheme: default
+      primary: teal
+      accent: '#00C2CB'
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: '#00C2CB'
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+extra:
+  favicon: assets/images/favicon.png
+extra_css:
+  - css/extra.css
+nav:
+  - Home: index.md
+ 
