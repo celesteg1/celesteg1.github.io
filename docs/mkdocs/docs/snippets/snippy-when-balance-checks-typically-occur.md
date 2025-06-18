@@ -1,0 +1,4 @@
+- **After minting**: To ensure the token matches the issued asset.
+- **After transfer/settlement**: To confirm delivery and cash match.
+- **Before burning**: To ensure that only the right party destroys the token.
+- **Periodically**: For internal audits, custody reports, and compliance checks.
