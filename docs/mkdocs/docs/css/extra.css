@@ -1,0 +1,56 @@
+/* Header background with teal shade */
+.md-header {
+   background: linear-gradient( 90deg,teal, #0E3354, #432E62) !important;
+}
+/* Optional: Also make the sticky header when scrolling use the same gradient */
+.md-header--shadow {
+  background: linear-gradient( 90deg, teal, #0E3354, #432E62)!important;
+}
+
+/* Optional: remove default box shadow under header for a cleaner look */
+.md-header--shadow::after {
+  box-shadow: none !important;
+}
+/* Site title styling */
+.md-header-nav__title {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.md-nav__link:hover,
+.md-nav__link:focus {
+    background-color: transparent !important;  /* remove default blue background */
+    color: #00C2CB !important;                  /* your accent color on hover */
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Make all main content text smaller, except headers and nav */
+.md-typeset {
+    font-size: 0.7rem; /* Adjust to taste (0.85rem, 14px, etc.) */
+}
+
+/* Make all headers teal and bold */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+    color: #00C2CB;          /* You can replace with your exact color like #00C2CB */
+    font-weight:normal;
+}
+
+/* Text links */
+a {
+  color:  #008080 !important;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #00C2CB !important;
+  text-decoration: underline;
+}

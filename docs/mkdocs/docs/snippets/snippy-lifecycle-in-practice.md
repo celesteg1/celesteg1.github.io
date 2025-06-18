@@ -1,0 +1,2 @@
+!!! example "This section is part of the Token Lifecycle in Practice."
+    Imagine you are working with a UK government bond or a derivatives contract. In the sections that follow, we walk through the token lifecycle and show how each stage maps to a specific API call. Follow the **Code Example** links for a step-by-step code walkthrough for each API method.
