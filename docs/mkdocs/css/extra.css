@@ -54,3 +54,27 @@ a:focus {
   color: #00C2CB !important;
   text-decoration: underline;
 }
+
+.btn.try-out, /* Hide "Try it out" buttons */
+button.try-out, /* in case button uses <button> */
+button.execute, /* optionally hide "Execute" button too */
+.btn.execute,
+.try-out {
+  display: none !important;
+}
+
+.example.microlight span[style*="color: rgb(162, 252, 162)"] {
+  color: #008080 !important;  /* Change to black or your preferred color */
+}
+
+.model-example span[style*="color: rgb(162, 252, 162)"] {
+  color: #008080 !important;  /* Change to black or your preferred color */
+}
+
+.wrapper span[style*="color: rgb(162, 252, 162)"] {
+  color: #008080 !important;  /* Change to black or your preferred color */
+}
+
+.renderedMarkdown span[style*="color: rgb(162, 252, 162)"] {
+  color: #008080 !important;  /* Change to black or your preferred color */
+}
